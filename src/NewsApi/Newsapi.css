@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+
+.Main {
+  height: 500px;
+  width: 400px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 1px black;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.2);
+}
+
+.Box {
+  text-decoration: none;
+  list-style: none;
+}
+
+.title h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 26px;
+  padding: 10px 20px;
+}
+
+.title p {
+  color: black;
+  font-weight: 500;
+  padding: 10px 20px;
+}
+
+.margin-lef ul li {
+  margin-left: 50px;
+}
+
+.margin-lef {
+  margin-left: 500px;
+}
+
+.Desborder {
+  width: 33.33%;
+
+}
