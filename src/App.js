@@ -1,12 +1,15 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Register from "./Componet/Register";
 import NewsApi from "./NewsApi/NewsApi";
+import Navbar from "./NewsApi/Navbar";
+import Fotter from "./NewsApi/Fotter";
 
 function App() {
   return (
     <div className="App">
-      <NewsApi />
+        <Navbar />
+        <NewsApi />
+        <Fotter />
+      
     </div>
   );
 }
